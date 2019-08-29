@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorized &#8211; 2D-Tactical-Game</title>
-	<atom:link href="http://joehill27.github.io/2D-Tactical-Web/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
-	<link>http://joehill27.github.io/2D-Tactical-Web</link>
+	<atom:link href="//joehill27.github.io/2D-Tactical-Web/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>//joehill27.github.io/2D-Tactical-Web</link>
 	<description>Game made in Unity</description>
 	<lastBuildDate>Thu, 29 Aug 2019 01:41:01 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,18 +21,18 @@
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 	<item>
 		<title>Week 1 8/25 &#8211; 8/31</title>
-		<link>http://joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/</link>
-				<comments>http://joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/#respond</comments>
+		<link>//joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/</link>
+				<comments>//joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/#respond</comments>
 				<pubDate>Thu, 29 Aug 2019 01:17:45 +0000</pubDate>
 		<dc:creator><![CDATA[root]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">http://joehill27.github.io/2D-Tactical-Web/?p=1</guid>
+		<guid isPermaLink="false">//joehill27.github.io/2D-Tactical-Web/?p=1</guid>
 				<description><![CDATA[First week of school Formed team, brainstorming ideas. Leaning towards a game similar to Worms/Shellshock Live Joseph started on the website Fernando set up the Unity&#46;&#46;&#46;]]></description>
 								<content:encoded><![CDATA[
 <ul><li>First week of school</li><li>Formed team, brainstorming ideas.</li><li>Leaning towards a game similar to Worms/Shellshock Live</li><li>Joseph started on the website</li><li>Fernando set up the Unity project</li><li>Alex started to get familiar with Unity</li></ul>
 ]]></content:encoded>
-							<wfw:commentRss>http://joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/feed/</wfw:commentRss>
+							<wfw:commentRss>//joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 							</item>
 	</channel>

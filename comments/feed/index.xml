@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for 2D-Tactical-Game	</title>
-	<atom:link href="http://joehill27.github.io/2D-Tactical-Web/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://joehill27.github.io/2D-Tactical-Web</link>
+	<atom:link href="//joehill27.github.io/2D-Tactical-Web/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>//joehill27.github.io/2D-Tactical-Web</link>
 	<description>Game made in Unity</description>
 	<lastBuildDate>2019-08-29 01:41:01</lastBuildDate>
 	<sy:updatePeriod>
