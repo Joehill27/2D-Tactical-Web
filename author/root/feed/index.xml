@@ -12,7 +12,7 @@
 	<atom:link href="//joehill27.github.io/2D-Tactical-Web/author/root/feed/" rel="self" type="application/rss+xml" />
 	<link>//joehill27.github.io/2D-Tactical-Web</link>
 	<description>Game made in Unity</description>
-	<lastBuildDate>Tue, 10 Sep 2019 01:23:09 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Sep 2019 19:53:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,57 +20,111 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.3</generator>
 	<item>
-		<title>Week 2 9/1-9/7</title>
-		<link>//joehill27.github.io/2D-Tactical-Web/2019/09/10/week-2-9-1-9-7/</link>
-				<pubDate>Tue, 10 Sep 2019 01:23:09 +0000</pubDate>
+		<title>Post 1 9/23 : Game Proposal</title>
+		<link>//joehill27.github.io/2D-Tactical-Web/2019/09/23/post-1-9-23-game-proposal/</link>
+				<pubDate>Mon, 23 Sep 2019 19:41:23 +0000</pubDate>
 		<dc:creator><![CDATA[Joseph]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Weekly Updates]]></category>
 
-		<guid isPermaLink="false">//joehill27.github.io/2D-Tactical-Web/?p=30</guid>
-				<description><![CDATA[Due to the hurricane, not that much work was able to be accomplished since we were busy preparing for the hurricane and couldn&#8217;t do much work other than some researching. Fernando worked on some animations for our first character. Joseph researched and played with WordPress themes. Alex went through some tutorials for Unity.]]></description>
+		<guid isPermaLink="false">//joehill27.github.io/2D-Tactical-Web/?p=35</guid>
+				<description><![CDATA[Game Inspiration smroW is a 2D turn-based tactical shooter inspired by games like Worms, Shellshock Live, and Wild Ones. How is smroW Built smroW is built with Unity 2019.3.0a2. The game is 2D, and the source code can be viewed at https://github.com/trevinofernando/2D-Tactical-Game. How the smroW Works From 2 to 4 teams comprising of 2 to [&#8230;]]]></description>
 								<content:encoded><![CDATA[
-<p>Due to the hurricane, not that much work was able to be accomplished since we were busy preparing for the hurricane and couldn&#8217;t do much work other than some researching. </p>
+<h3>Game Inspiration</h3>
 
 
 
-<p>Fernando worked on some animations for our first character.</p>
+<p>smroW is a 2D turn-based tactical shooter inspired by games like Worms, Shellshock Live, and Wild Ones. </p>
+
+
+
+<h3>How is smroW Built</h3>
+
+
+
+<p>smroW is built with Unity 2019.3.0a2. The game is 2D, and the source code can be viewed at  <a href="https://github.com/trevinofernando/2D-Tactical-Game">https://github.com/trevinofernando/2D-Tactical-Game</a>. </p>
+
+
+
+<h3>How the smroW Works</h3>
+
+
+
+<p>   From 2 to 4 teams comprising of 2 to 4 human and AI players will be randomly spawned across a map with a chosen team. Each player will get a turn per round, rotating through each team. Player one from team one will take their turn, then player one from team two will take their turn, and so on, until everyone has taken their turns. There will be a time limit, and game mechanics that assure that games do not go on too long. To win, you must be the last team standing.</p>
+
+
+
+<h3>Game Environment</h3>
+
+
+
+<p>There will be a dynamically created tile-based map system. With each map theme, there will be different types of environmental adversaries in addition to battling with other teams.</p>
+
+
+
+<h3>Player and Weapons</h3>
+
+
+
+<p>Each player will have the same character, and the midsection area will be a different color for each player. Here is the base character:</p>
+
+
+
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/WhiteSoldier.png" alt="" data-id="36" data-link="//joehill27.github.io/2D-Tactical-Web/whitesoldier/" class="wp-image-36" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/WhiteSoldier.png 544w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/WhiteSoldier-300x148.png 300w" sizes="(max-width: 544px) 100vw, 544px" /></figure></li></ul>
+
+
+
+<p>Here are some of the weapon assets:</p>
+
+
+
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/gun_prg7.png" alt="" data-id="39" data-link="//joehill27.github.io/2D-Tactical-Web/gun_prg7/" class="wp-image-39" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/gun_prg7.png 377w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/gun_prg7-300x72.png 300w" sizes="(max-width: 377px) 100vw, 377px" /></figure></li></ul>
+
+
+
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/gun_ai_ae.png" alt="" data-id="37" data-link="//joehill27.github.io/2D-Tactical-Web/gun_ai_ae/" class="wp-image-37" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/gun_ai_ae.png 411w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/gun_ai_ae-300x77.png 300w" sizes="(max-width: 411px) 100vw, 411px" /></figure></li></ul>
+
+
+
+<h3>Progress So Far</h3>
+
+
+
+<h4>Fernando</h4>
+
+
+
+<p>Worked on player movement, player spawning, and some of the collisions, destructable environment, and health system so far. Here is what the game looks like so far:</p>
 
 
 
 <figure class="wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="9-9 Player Animation" src="https://player.vimeo.com/video/358947837?dnt=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe title="9-23 Fernando Turn Based" src="https://player.vimeo.com/video/361882467?dnt=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div></figure>
 
 
 
-<figure class="wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="9-9 Player Animation 2" src="https://player.vimeo.com/video/358948194?dnt=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div></figure>
+<h4>Alex</h4>
 
 
 
-<p>Joseph researched and played with WordPress themes.</p>
+<p>Alex has been watching tutorials on Unity to become familiar with it.  He has worked on some of the basic menus and researched some of the AI movement to get ideas. Here is the state of the menus:</p>
 
 
 
-<p>Alex went through some tutorials for Unity.</p>
+<ul class="wp-block-gallery columns-3 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/MainMenu-1024x576.png" alt="" data-id="50" data-link="//joehill27.github.io/2D-Tactical-Web/mainmenu/" class="wp-image-50" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/MainMenu-1024x576.png 1024w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/MainMenu-300x169.png 300w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/MainMenu-768x432.png 768w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/MainMenu-1568x882.png 1568w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Settings-1024x576.png" alt="" data-id="51" data-link="//joehill27.github.io/2D-Tactical-Web/settings/" class="wp-image-51" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Settings-1024x576.png 1024w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Settings-300x169.png 300w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Settings-768x432.png 768w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Settings-1568x882.png 1568w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/GameOptions-1024x576.png" alt="" data-id="49" data-link="//joehill27.github.io/2D-Tactical-Web/gameoptions/" class="wp-image-49" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/GameOptions-1024x576.png 1024w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/GameOptions-300x169.png 300w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/GameOptions-768x432.png 768w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/GameOptions-1568x882.png 1568w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li></ul>
+
+
+
+<h4>Joseph</h4>
+
+
+
+<p>Joseph has worked on creating tile assets and some environment assets, and trying out ideas for dynamic map generation, as well as a script for audio management. Here are some of the tile and environment assets:</p>
+
+
+
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Joseph-Environment-9-23.png" alt="" data-id="46" data-link="//joehill27.github.io/2D-Tactical-Web/joseph-environment-9-23/" class="wp-image-46" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Joseph-Environment-9-23.png 894w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Joseph-Environment-9-23-300x135.png 300w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/09/Joseph-Environment-9-23-768x346.png 768w" sizes="(max-width: 894px) 100vw, 894px" /></figure></li></ul>
 ]]></content:encoded>
 										</item>
-		<item>
-		<title>Week 1 8/25 &#8211; 8/31</title>
-		<link>//joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/</link>
-				<comments>//joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/#respond</comments>
-				<pubDate>Thu, 29 Aug 2019 01:17:45 +0000</pubDate>
-		<dc:creator><![CDATA[Joseph]]></dc:creator>
-				<category><![CDATA[Uncategorized]]></category>
-
-		<guid isPermaLink="false">//joehill27.github.io/2D-Tactical-Web/?p=1</guid>
-				<description><![CDATA[First week of school Formed team, brainstorming ideas. Leaning towards a game similar to Worms/Shellshock Live Joseph started on the website Fernando set up the Unity project Alex started to get familiar with Unity]]></description>
-								<content:encoded><![CDATA[
-<ul><li>First week of school</li><li>Formed team, brainstorming ideas.</li><li>Leaning towards a game similar to Worms/Shellshock Live</li><li>Joseph started on the website</li><li>Fernando set up the Unity project</li><li>Alex started to get familiar with Unity</li></ul>
-]]></content:encoded>
-							<wfw:commentRss>//joehill27.github.io/2D-Tactical-Web/2019/08/29/hello-world/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-							</item>
 	</channel>
 </rss>

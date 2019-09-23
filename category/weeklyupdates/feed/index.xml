@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>2D-Tactical-Game</title>
-	<atom:link href="//joehill27.github.io/2D-Tactical-Web/feed/" rel="self" type="application/rss+xml" />
+	<title>Weekly Updates &#8211; 2D-Tactical-Game</title>
+	<atom:link href="//joehill27.github.io/2D-Tactical-Web/category/weeklyupdates/feed/" rel="self" type="application/rss+xml" />
 	<link>//joehill27.github.io/2D-Tactical-Web</link>
 	<description>Game made in Unity</description>
 	<lastBuildDate>Mon, 23 Sep 2019 19:53:31 +0000</lastBuildDate>
