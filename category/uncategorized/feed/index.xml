@@ -12,7 +12,7 @@
 	<atom:link href="//joehill27.github.io/2D-Tactical-Web/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>//joehill27.github.io/2D-Tactical-Web</link>
 	<description>Game made in Unity</description>
-	<lastBuildDate>Sat, 05 Oct 2019 18:43:23 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Oct 2019 01:34:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,53 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.3</generator>
 	<item>
+		<title>Post 3 10/7 : First Playable Progress</title>
+		<link>//joehill27.github.io/2D-Tactical-Web/2019/10/06/post-3-10-7-first-playable-progress/</link>
+				<pubDate>Sun, 06 Oct 2019 18:34:46 +0000</pubDate>
+		<dc:creator><![CDATA[Joseph]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">//joehill27.github.io/2D-Tactical-Web/?p=64</guid>
+				<description><![CDATA[Alex Tied together the pre-game options menu scene to the in-game scene. Spawns the correct number of players and the correct number teams, and successfully passes all the settings value to a global variable script. Fernando Implemented a Camera Controller that follows the mouse when it goes off screen, and starts a timer to reset [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<h2>Alex</h2>
+
+
+
+<p>Tied together the pre-game options menu scene to the in-game scene. Spawns the correct number of players and the correct  number teams, and successfully passes all the settings value to a global variable script.</p>
+
+
+
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Alex-Menu-to-Game-Selection.png" alt="" data-id="69" data-link="//joehill27.github.io/2D-Tactical-Web/2019/10/06/post-3-10-7-first-playable-progress/alex-menu-to-game-selection/" class="wp-image-69" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Alex-Menu-to-Game-Selection.png 780w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Alex-Menu-to-Game-Selection-300x279.png 300w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Alex-Menu-to-Game-Selection-768x714.png 768w" sizes="(max-width: 780px) 100vw, 780px" /></figure></li></ul>
+
+
+
+<h2>Fernando</h2>
+
+
+
+<p> Implemented a Camera Controller that follows the mouse when it goes off screen, and starts a timer to reset the camera back to the player if the mouse is outside of the game screen. The camera can zoom in and out, or scroll horizontally and vertically. The Camera follows locks onto a player when it becomes their turn. </p>
+
+
+
+<figure class="wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Camera Game Progress" src="https://player.vimeo.com/video/364517893?dnt=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2>Joseph</h2>
+
+
+
+<p>Implemented an Audio Manager script that uses the Singleton design pattern to only have one between the menu and game scenes. Can be called from any script since it is public so various scripts can call it. </p>
+
+
+
+<ul class="wp-block-gallery columns-1 is-cropped"><li class="blocks-gallery-item"><figure><img src="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Audio-Manager.png" alt="" data-id="72" data-link="//joehill27.github.io/2D-Tactical-Web/2019/10/06/post-3-10-7-first-playable-progress/audio-manager/" class="wp-image-72" srcset="//joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Audio-Manager.png 647w, //joehill27.github.io/2D-Tactical-Web/wp-content/uploads/2019/10/Audio-Manager-268x300.png 268w" sizes="(max-width: 647px) 100vw, 647px" /></figure></li></ul>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Post 2 9/30 : Progress</title>
 		<link>//joehill27.github.io/2D-Tactical-Web/2019/10/05/post-2-9-30-progress/</link>
 				<pubDate>Sat, 05 Oct 2019 18:43:23 +0000</pubDate>
@@ -53,13 +100,7 @@
 
 
 
-<p>Implemented a Camera Controller that follows the mouse when it goes off screen, and starts a timer to reset the camera back to the player if the mouse is outside of the game screen. The camera can zoom in and out, or scroll horizontally and vertically. The Camera follows locks onto a player when it becomes their turn.</p>
-
-
-
-<figure class="wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Camera Game Progress" src="https://player.vimeo.com/video/364517893?dnt=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div></figure>
+<p> Created a script using singletons that keeps global variables that are persistent throughout scenes and carry information from the menu settings to the game scene. Also implemented turns using co-routines and successfully build a state machine to managed the different states of the game. From spawning players with the color, initial health, size of team and all specifications from the global variables coming from the settings menu, to allowing one shot per turn and terminating the turn after shooting. Created 2 clocks, one for the game and one for using during each turn and turn transitions. Finally, updated some scripts to reflect the new system. </p>
 
 
 
