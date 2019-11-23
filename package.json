@@ -11,7 +11,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
-  "homepage": "http://Joehill27.github.io/Squires-Knights-In-the-Making",
+  "homepage": "http://Joehill27.github.io/2D-Tactical-Web",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
