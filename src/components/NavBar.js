@@ -3,7 +3,6 @@ import '../App.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography'
 import { styled } from '@material-ui/core/styles';
 import logo from '../img/Icon.svg';
 import { useHistory } from "react-router-dom";
@@ -46,12 +45,12 @@ export default function NavBar() {
                     <Tooltip title="Source Code">
                         <Button onClick={() => {window.open("https://github.com/trevinofernando/2D-Tactical-Game")}}> <span className="Header">GitHub</span> </Button>
                     </Tooltip>
-                    <Tooltip title="Download Page">
+                    {/* <Tooltip title="Download Page">
                         <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Download")}}> <span className="Header">Download</span> </Button>
                     </Tooltip>
                     <Tooltip title="Play on the Web">
                         <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Play")}}> <span className="Header">Play Now!</span> </Button>
-                    </Tooltip>
+                    </Tooltip> */}
                     
                 </MyToolbar>
             </AppBar>
