@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.NavLogo {
+  height: 75px;
+  width: 75px;
+}
+
+.Header {
+  color: black;
+  flex-grow: 0.75;
+}
+
+.About {
+  color: black;
+  width: 100%;
+}
+
+.Post {
+  margin: 5%;
+}
+
+.PostPara {
+  text-align: center;
+  width: 100%;
+}
+
+.Img {
+  max-width: 600px;
+  min-width: 400px;
+  min-height: 300px;
+  max-height: 500px;
+}
