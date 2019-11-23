@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/2D-Tactical-Web/precache-manifest.3ce3c9c9dd5bde7e75cf088884448874.js"
+  "/2D-Tactical-Web/precache-manifest.082bf418338540bc3400748686c61c99.js"
 );
 
 self.addEventListener('message', (event) => {
