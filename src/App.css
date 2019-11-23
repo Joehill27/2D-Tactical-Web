@@ -7,15 +7,6 @@
   font-weight: bold;
 }
 
-.PageContent {
-  text-align: center;
-  color: black;
-  position: absolute;
-  width: 100%;
-  height: 92.3vh;
-  background-image: url(https://i.imgur.com/7llCG2i.png);
-}
-
 .Home {
   text-align: center;
   color: black;
@@ -57,9 +48,27 @@
 /* Change height to 3rem for mobile */
 
 .Asset-Imgs {
-  flex-grow: inherit;
-  display: inline-block;
-  height: 10rem;
-  width: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+}
 
+.Gray-Background {
+  background-color: grey;
+}
+
+.About {
+  margin: 5%;
+  margin-bottom: 0%;
+  background-color: grey;
+  height: 100vh;
+  position: relative;
+}
+
+.Paragraph {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
