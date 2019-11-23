@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Squires-Knights-In-the-Making/static/css/main.af88ff74.chunk.css",
-    "main.js": "/Squires-Knights-In-the-Making/static/js/main.290e2906.chunk.js",
-    "main.js.map": "/Squires-Knights-In-the-Making/static/js/main.290e2906.chunk.js.map",
-    "runtime-main.js": "/Squires-Knights-In-the-Making/static/js/runtime-main.6b443ffa.js",
-    "runtime-main.js.map": "/Squires-Knights-In-the-Making/static/js/runtime-main.6b443ffa.js.map",
-    "static/js/2.9bb458cb.chunk.js": "/Squires-Knights-In-the-Making/static/js/2.9bb458cb.chunk.js",
-    "static/js/2.9bb458cb.chunk.js.map": "/Squires-Knights-In-the-Making/static/js/2.9bb458cb.chunk.js.map",
-    "index.html": "/Squires-Knights-In-the-Making/index.html",
-    "precache-manifest.c38fb181a0cb8c00d191c950209cb9c9.js": "/Squires-Knights-In-the-Making/precache-manifest.c38fb181a0cb8c00d191c950209cb9c9.js",
-    "service-worker.js": "/Squires-Knights-In-the-Making/service-worker.js",
-    "static/css/main.af88ff74.chunk.css.map": "/Squires-Knights-In-the-Making/static/css/main.af88ff74.chunk.css.map",
-    "static/media/Icon.svg": "/Squires-Knights-In-the-Making/static/media/Icon.1cfc1bf1.svg"
+    "main.css": "/2D-Tactical-Web/static/css/main.af88ff74.chunk.css",
+    "main.js": "/2D-Tactical-Web/static/js/main.a2554cb2.chunk.js",
+    "main.js.map": "/2D-Tactical-Web/static/js/main.a2554cb2.chunk.js.map",
+    "runtime-main.js": "/2D-Tactical-Web/static/js/runtime-main.19193b97.js",
+    "runtime-main.js.map": "/2D-Tactical-Web/static/js/runtime-main.19193b97.js.map",
+    "static/js/2.9bb458cb.chunk.js": "/2D-Tactical-Web/static/js/2.9bb458cb.chunk.js",
+    "static/js/2.9bb458cb.chunk.js.map": "/2D-Tactical-Web/static/js/2.9bb458cb.chunk.js.map",
+    "index.html": "/2D-Tactical-Web/index.html",
+    "precache-manifest.3ce3c9c9dd5bde7e75cf088884448874.js": "/2D-Tactical-Web/precache-manifest.3ce3c9c9dd5bde7e75cf088884448874.js",
+    "service-worker.js": "/2D-Tactical-Web/service-worker.js",
+    "static/css/main.af88ff74.chunk.css.map": "/2D-Tactical-Web/static/css/main.af88ff74.chunk.css.map",
+    "static/media/Icon.svg": "/2D-Tactical-Web/static/media/Icon.1cfc1bf1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b443ffa.js",
+    "static/js/runtime-main.19193b97.js",
     "static/js/2.9bb458cb.chunk.js",
     "static/css/main.af88ff74.chunk.css",
-    "static/js/main.290e2906.chunk.js"
+    "static/js/main.a2554cb2.chunk.js"
   ]
 }
