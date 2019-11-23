@@ -6,7 +6,6 @@ import { Container, Grid, ExpansionPanel,
     from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ReactPlayer from 'react-player'
-import { throws } from 'assert';
 import { styled } from '@material-ui/core/styles';
 
 
@@ -28,39 +27,53 @@ class Post extends React.Component {
     render() {
         const MyExpansionPanel = styled(ExpansionPanel)({
             alignItems: 'center',
-            background: 'linear-gradient(10deg, #FE6B8B 50%, #FF8E53 75%)',
+            backgroundColor: 'grey',
             border: 0,
             borderRadius: 3,
             boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-            color: 'white',
+            color: 'black'
+          });
+
+          const HeaderExpansionPanel = styled(ExpansionPanel)({
+            alignItems: 'center',
+            backgroundColor: 'grey',
+            border: 0,
+            borderRadius: 3,
+            boxShadow: 'none',
+            color: 'black'
           });
           
         return (
             
             <div className="Post">
-    <Typography variant="h5">Post {this.state.postNumber} {this.state.date} {this.state.postName}</Typography>
+                
+                <HeaderExpansionPanel>
+                    <Typography variant="h5">
+                        Post {this.state.postNumber} {this.state.date} {this.state.postName}
+                    </Typography>
+                </HeaderExpansionPanel>
                 <MyExpansionPanel>
                     <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                     >
-                    <div className="PostPara">
-                        <Typography>Alex</Typography>
+                    <div className="Content">
+                        <Typography variant="subtitle1">Alex</Typography>
                     </div>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        <div className="PostPara">
+                        <div className="Content">
                             <Typography>
                                 {this.state.alex.text}
                             </Typography>
                         </div>
                         {this.state.alex.imageUrl !== "" &&
-                            <div><img className="Img" src={this.state.alex.imageUrl} alt=""></img></div>
+                            <div><img className="Media" src={this.state.alex.imageUrl} alt=""></img></div>
                         }
                         
                         {this.state.alex.vimeoLink !== "" &&
-                            <div><ReactPlayer url={this.state.alex.vimeoLink} /></div>
+                            <div><ReactPlayer className="Media" url={this.state.alex.vimeoLink} /></div>
                         }
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>
@@ -70,8 +83,8 @@ class Post extends React.Component {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                     >
-                    <div className="PostPara">
-                        <Typography>Fernando</Typography>
+                    <div className="Content">
+                        <Typography variant="subtitle1">Fernando</Typography>
                     </div>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
@@ -81,11 +94,11 @@ class Post extends React.Component {
                             </Typography>
                         </div>
                         {this.state.fernando.imageUrl !== "" &&
-                            <div><img className="Img" src={this.state.fernando.imageUrl} alt=""></img></div>
+                            <div><img className="Media" src={this.state.fernando.imageUrl} alt=""></img></div>
                         }
                         
                         {this.state.fernando.vimeoLink !== "" &&
-                            <div><ReactPlayer url={this.state.fernando.vimeoLink} /></div>
+                            <div><ReactPlayer className="Media" url={this.state.fernando.vimeoLink} /></div>
                         }
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>
@@ -95,8 +108,8 @@ class Post extends React.Component {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                     >
-                    <div className="PostPara">
-                        <Typography>Joseph</Typography>
+                    <div className="Content">
+                        <Typography variant="subtitle1">Joseph</Typography>
                     </div>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
@@ -106,11 +119,11 @@ class Post extends React.Component {
                             </Typography>
                         </div>
                         {this.state.joseph.imageUrl !== "" &&
-                            <div><img className="Img" src={this.state.joseph.imageUrl} alt=""></img></div>
+                            <div><img className="Media" src={this.state.joseph.imageUrl} alt=""></img></div>
                         }
                         
                         {this.state.joseph.vimeoLink !== "" &&
-                            <div><ReactPlayer url={this.state.joseph.vimeoLink} /></div>
+                            <div><ReactPlayer className="Media" url={this.state.joseph.vimeoLink} /></div>
                         }
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>

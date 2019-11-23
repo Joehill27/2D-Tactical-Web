@@ -85,8 +85,8 @@ class PostList extends React.Component {
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
-                    "imageUrl" : "https://i.imgur.com/81To55H.png",
-                    "text" : "Worked on spawning environment props into the environment and having them interact with players. Coconuts act similar to grenades. Worked on AI targeting for the sun and other environment AI, which didn’t get integrated in time for first playable."
+                    "imageUrl" : "",
+                    "text" : "Worked on spawning environment props into the environment and having them interact with players. "
                 }
             },
             "postFive" :
@@ -96,17 +96,17 @@ class PostList extends React.Component {
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Worked on game settings menu and pause menu."
                 },
                 "Fernando" : {
-                    "vimeoLink" : "",
+                    "vimeoLink" : "https://vimeo.com/375051599",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Added a grenade launcher for regular grenades and holy grenades with its art, SFX  and VFX. I made a MedKit and TraumaKit power up to heal players, did the animation and VFX with particle system. I made trails for all projectiles to make them easier to follow in the air. Implemented turn timer coroutines and states in Game Manager to keep track of turn transitions to allow environment hazards to attack during them."
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
-                    "imageUrl" : "",
-                    "text" : ""
+                    "imageUrl" : "https://i.imgur.com/81To55H.png",
+                    "text" : "Worked on AI targeting for the sun and other environment AI."
                 }
             },
             "postSix" :
@@ -116,17 +116,17 @@ class PostList extends React.Component {
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Worked on weapon inventory, which allows for easier selection of weapons compared to switching with the 'Q' and 'E' keys."
                 },
                 "Fernando" : {
-                    "vimeoLink" : "",
+                    "vimeoLink" : "https://vimeo.com/375052281",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Added 4 explosion FX, and SFX for all guns (most sounds were recorded and edited in audacity). Remade the Physics/Animation system on the players to separate them from interfering with each other and give a more realistic behavior."
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Researched and tested movement using Unity A* project. https://arongranberg.com/astar/"
                 }
             },
             "postSeven" :
@@ -136,83 +136,83 @@ class PostList extends React.Component {
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Created a shotgun that shoots three bullets. Added inventory and pause buttons."
                 },
                 "Fernando" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Started AI state Machine, right now it can identify all alive players and it sorts them by in a list by distance, team health and soldier health. This is with the intention of prioritizing targets. Implemented pausing logic by freezing time and saving the state of the game and restarting all necessary coroutines.Created game cover."
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Created palm tree that launches explosive coconuts that reuse grenade script to cause damage to player. Also created cactus that damages player on collision."
                 }
             },
             "postEight" :
             {
                 "date": "11/11",
-                "postName" : "",
+                "postName" : "Veteran's Day",
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Created a teleporter grenade weapon that teleports the player to where the grenade lands."
                 },
                 "Fernando" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Created a generic plane bomber prefab and script to allow for reuse. Currently being used as a weapon to drop bombs, and to provide health packs and weapon crates during turn transitions. "
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Worked on creating an environment manager to keep control of which environment attacks during turn transition, and refactored sun code to be controlled by the environment manager."
                 }
             },
             "postNine" :
             {
                 "date": "11/18",
-                "postName" : "",
+                "postName" : "Testing Day",
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Added player name text and amount of health above players, button tooltips and control option in pause menu."
                 },
                 "Fernando" : {
                     "vimeoLink" : "",
-                    "imageUrl" : "",
-                    "text" : ""
+                    "imageUrl" : "https://i.imgur.com/9UttuTp.png",
+                    "text" : "Improved camera management following action and shots. Teams now have a shared arsenal, which limits how much ammo of each weapon each team has. Created weapon crates to randomly give player one ammo for a weapon."
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Preparing for testing day by creating the build, and last minute testing, bugfixing, specifically to a weapon bug that shows up in the build. Started on 'player bush', a gag AI environment hazard that can utilize some weapons. Did not finish in time for testing day."
                 }
             },
             "postTen" :
             {
                 "date": "11/25",
-                "postName" : "",
+                "postName" : "Test Iteration",
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Completed a game feed that will help update the player on what's going on in the game. Added current team and player turns to in-game UI."
                 },
                 "Fernando" : {
                     "vimeoLink" : "",
-                    "imageUrl" : "",
-                    "text" : ""
+                    "imageUrl" : "https://i.imgur.com/wqffMMQ.jpg",
+                    "text" : "BGF-9000 weapon and Infinity gauntlet. Implemented the first tool, moon boots, to increase player mobility. Implemented thunder gun and cartoon gag gun to allow players to skip their turn as requested in survey."
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Added moving platforms to map to allow for better player mobility. Implemented wandering bird that randomly attacks players during turn transitions. Revamping map generation, to generate the map in small chunks to allow for randomness while having the map make sense."
                 }
             },
             "postEleven" :
             {
                 "date": "12/2",
-                "postName" : "",
+                "postName" : "Final Adjustments",
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
@@ -221,7 +221,7 @@ class PostList extends React.Component {
                 "Fernando" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : ""
+                    "text" : "Polishing player AI, including improved projectile aiming, and adding remaining weapons to decision making."
                 },
                 "Joseph" : {
                     "vimeoLink" : "",
@@ -233,6 +233,13 @@ class PostList extends React.Component {
 
         return (
             <div>
+                {/* <Post postInfo={posts.postEleven} postNumber={11}/> */}
+                <Post postInfo={posts.postTen} postNumber={10}/>
+                <Post postInfo={posts.postNine} postNumber={9}/>
+                <Post postInfo={posts.postEight} postNumber={8}/>
+                <Post postInfo={posts.postSeven} postNumber={7}/>
+                <Post postInfo={posts.postSix} postNumber={6}/>
+                <Post postInfo={posts.postFive} postNumber={5}/>
                 <Post postInfo={posts.postFour} postNumber={4}/>
                 <Post postInfo={posts.postThree} postNumber={3}/>
                 <Post postInfo={posts.postTwo} postNumber={2}/>

@@ -7,15 +7,16 @@ import Typography from '@material-ui/core/Typography'
 import { styled } from '@material-ui/core/styles';
 import logo from '../img/Icon.svg';
 import { useHistory } from "react-router-dom";
+import { Tooltip } from '@material-ui/core';
 
 const MyToolbar = styled(Toolbar)({
         alignItems: 'center',
-        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        backgroundColor: 'grey',
         border: 0,
         borderRadius: 3,
         boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
         color: 'white',
-        height: 48,
+        height: 72,
         padding: '0 30px',
       });
 
@@ -25,20 +26,33 @@ export default function NavBar() {
         <div className="NavBar">
             <AppBar position="static">
                 <MyToolbar>
-                    <img 
-                        src={logo}
-                        alt={logo}
-                        className="NavLogo"
-                    />
+                    <Tooltip title="Go Knights!">
+                        <img 
+                            src={logo}
+                            alt={logo}
+                            className="NavLogo"
+                        />
+                    </Tooltip>
                     
-                    <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/")}}> <h3 className="Header">Home</h3> </Button>
-                    <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/About")}}> <h3 className="Header">About</h3> </Button>
-                    <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Assets")}}> <h3 className="Header">Assets</h3> </Button>
-                    {/* <Button onClick={() => {history.push('/Squires-Knights-In-the-Making/Play')}}> Play </Button> */}
-                    {/* <Button onClick={() => {history.push('/Squires-Knights-In-the-Making/Download')}}> Download </Button> */}
-                    <Typography className="Header" variant ="h5">
-                        Squires: Knights in the Making
-                    </Typography>
+                    <Tooltip title="Go to Home Page">
+                        <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/")}}> <span className="Header">Squires: Knights in the Making</span> </Button>
+                    </Tooltip>
+                    <Tooltip title="Learn More">
+                        <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/About")}}> <span className="Header">About</span> </Button>
+                    </Tooltip>
+                    <Tooltip title="Game Assets">
+                        <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Assets")}}> <span className="Header">Assets</span> </Button>
+                    </Tooltip>
+                    <Tooltip title="Source Code">
+                        <Button onClick={() => {window.open("https://github.com/trevinofernando/2D-Tactical-Game")}}> <span className="Header">GitHub</span> </Button>
+                    </Tooltip>
+                    <Tooltip title="Download Page">
+                        <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Download")}}> <span className="Header">Download</span> </Button>
+                    </Tooltip>
+                    <Tooltip title="Play on the Web">
+                        <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Play")}}> <span className="Header">Play Now!</span> </Button>
+                    </Tooltip>
+                    
                 </MyToolbar>
             </AppBar>
         </div>
