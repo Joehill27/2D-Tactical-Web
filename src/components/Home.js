@@ -9,6 +9,7 @@ class Home extends React.Component {
         return (
             <div className="Home">
                 <NavBar/>
+                
                 <PostList/>
                 <Button onClick={() => {window.open("https://drive.google.com/file/d/1zdcCvcNJ6-440Mj7WOq_QikVX87azmNl/view?usp=sharing")}}>
                     Link to Game Proposal Presentation

@@ -47,10 +47,11 @@ export default function NavBar() {
                     </Tooltip>
                     {/* <Tooltip title="Download Page">
                         <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Download")}}> <span className="Header">Download</span> </Button>
-                    </Tooltip>
-                    <Tooltip title="Play on the Web">
-                        <Button onClick={() => {history.push(process.env.PUBLIC_URL + "/Play")}}> <span className="Header">Play Now!</span> </Button>
                     </Tooltip> */}
+                    <Tooltip title="Play on the Web">
+                    <Button onClick={() => {window.open(process.env.PUBLIC_URL + "/Play.html")}}> <span className="Header">Play Now</span> </Button>
+
+                    </Tooltip>
                     
                 </MyToolbar>
             </AppBar>

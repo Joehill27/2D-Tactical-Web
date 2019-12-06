@@ -63,18 +63,21 @@ class Post extends React.Component {
                     </div>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        <div className="Content">
+                        <div className="Clear">
+                            <div className="Content">
                             <Typography>
                                 {this.state.alex.text}
                             </Typography>
+                            </div>
+                            {this.state.alex.imageUrl !== "" &&
+                                <div><img className="Media" src={this.state.alex.imageUrl} alt=""></img></div>
+                            }
+                            
+                            {this.state.alex.vimeoLink !== "" &&
+                                <div><ReactPlayer className="Media" url={this.state.alex.vimeoLink} /></div>
+                            }
                         </div>
-                        {this.state.alex.imageUrl !== "" &&
-                            <div><img className="Media" src={this.state.alex.imageUrl} alt=""></img></div>
-                        }
                         
-                        {this.state.alex.vimeoLink !== "" &&
-                            <div><ReactPlayer className="Media" url={this.state.alex.vimeoLink} /></div>
-                        }
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>
                 <MyExpansionPanel>
@@ -88,6 +91,7 @@ class Post extends React.Component {
                     </div>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
+                    <div className="Clear">
                         <div>
                             <Typography>
                                 {this.state.fernando.text}
@@ -100,6 +104,7 @@ class Post extends React.Component {
                         {this.state.fernando.vimeoLink !== "" &&
                             <div><ReactPlayer className="Media" url={this.state.fernando.vimeoLink} /></div>
                         }
+                    </div>
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>
                 <MyExpansionPanel>
@@ -113,6 +118,7 @@ class Post extends React.Component {
                     </div>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
+                    <div className="Clear">
                         <div>
                             <Typography>
                                 {this.state.joseph.text}
@@ -125,6 +131,7 @@ class Post extends React.Component {
                         {this.state.joseph.vimeoLink !== "" &&
                             <div><ReactPlayer className="Media" url={this.state.joseph.vimeoLink} /></div>
                         }
+                        </div>
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>
             </div>

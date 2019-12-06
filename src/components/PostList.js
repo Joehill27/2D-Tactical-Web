@@ -1,12 +1,37 @@
 import React from 'react';
 import '../App.css';
 import Post from './Post';
-import {Grid} from '@material-ui/core';
+import {ExpansionPanel,
+    ExpansionPanelDetails,
+    ExpansionPanelSummary, Typography }
+    from '@material-ui/core';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { styled } from '@material-ui/core/styles';
+
+import ReactPlayer from 'react-player'
+
 
 class PostList extends React.Component {
 
     
     render() {
+        const MyExpansionPanel = styled(ExpansionPanel)({
+            alignItems: 'center',
+            backgroundColor: 'grey',
+            border: 0,
+            borderRadius: 3,
+            boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+            color: 'black'
+          });
+
+          const HeaderExpansionPanel = styled(ExpansionPanel)({
+            alignItems: 'center',
+            backgroundColor: 'grey',
+            border: 0,
+            borderRadius: 3,
+            boxShadow: 'none',
+            color: 'black'
+          });
 
         let posts = {
             "postOne" :
@@ -233,7 +258,53 @@ class PostList extends React.Component {
 
         return (
             <div>
-                {/* <Post postInfo={posts.postEleven} postNumber={11}/> */}
+                <div className="Post">
+                <HeaderExpansionPanel>
+                    <Typography variant="h5">
+                        Final Post: Reflection and Gameplay
+                    </Typography>
+                </HeaderExpansionPanel>
+                <MyExpansionPanel>
+                    <ExpansionPanelSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                    >
+                    <div className="Content">
+                        <Typography variant="subtitle1">Reflection</Typography>
+                    </div>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <div className="Content">
+                            <Typography>
+                                The game has come a long way over the semester. We have put many hours of work and planning into it, and it has turned into something we are proud of. We have learned about planning a game and the planning and software design that is required, how AI is implemented in games, and how to iterate based on player feedback. There is still much more for us to learn, and the game isn't perfect, but what game is? 
+                            </Typography>
+                        </div>
+                    </ExpansionPanelDetails>
+                </MyExpansionPanel>
+                <MyExpansionPanel>
+                    <ExpansionPanelSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                    >
+                    <div className="Content">
+                        <Typography variant="subtitle1">Gameplay</Typography>
+                    </div>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails>
+                        <div className="Content">
+                            <Typography>
+                                Here is a video of how the game looks and plays. There is many aspects to it than shown, so definitely play it!
+                            </Typography>
+                        </div>
+                        <br></br>
+                        <div>
+                            <ReactPlayer className="Media" url="" />
+                            </div>
+                    </ExpansionPanelDetails>
+                </MyExpansionPanel>
+                </div>
                 <Post postInfo={posts.postTen} postNumber={10}/>
                 <Post postInfo={posts.postNine} postNumber={9}/>
                 <Post postInfo={posts.postEight} postNumber={8}/>
