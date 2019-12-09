@@ -76,3 +76,10 @@
 .Clear {
   clear: both;
 }
+
+.Container {
+  display:flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

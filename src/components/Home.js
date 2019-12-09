@@ -10,10 +10,29 @@ class Home extends React.Component {
             <div className="Home">
                 <NavBar/>
                 
+                
                 <PostList/>
-                <Button onClick={() => {window.open("https://drive.google.com/file/d/1zdcCvcNJ6-440Mj7WOq_QikVX87azmNl/view?usp=sharing")}}>
-                    Link to Game Proposal Presentation
-                </Button>
+                <div className="Container">
+                     <div className="Padding">
+                        <Button variant="contained" color="primary" onClick={() => {window.open("https://drive.google.com/file/d/1zdcCvcNJ6-440Mj7WOq_QikVX87azmNl/view?usp=sharing")}}>
+                            Link to Game Proposal Presentation
+                        </Button>
+                    </div>
+                    
+                    <div>
+                        <Button variant="contained" color="primary" onClick={() => {window.open("https://drive.google.com/file/d/1zdcCvcNJ6-440Mj7WOq_QikVX87azmNl/view?usp=sharing")}}>
+                            Link to First Playable Presentation
+                        </Button>
+                    </div>
+                    
+                    <div>
+                        <Button variant="contained" color="primary" onClick={() => {window.open("https://drive.google.com/file/d/1zdcCvcNJ6-440Mj7WOq_QikVX87azmNl/view?usp=sharing")}}>
+                            Link to AI Presentation
+                        </Button> 
+                    </div>
+                </div>
+                
+                
             </div>
         );
     }

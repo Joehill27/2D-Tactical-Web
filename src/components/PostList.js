@@ -221,7 +221,7 @@ class PostList extends React.Component {
                 "Alex" : {
                     "vimeoLink" : "",
                     "imageUrl" : "",
-                    "text" : "Completed a game feed that will help update the player on what's going on in the game. Added current team and player turns to in-game UI."
+                    "text" : "Simplify game creation menu to allow for default gameplay, only selecting number of players."
                 },
                 "Fernando" : {
                     "vimeoLink" : "",
@@ -232,26 +232,6 @@ class PostList extends React.Component {
                     "vimeoLink" : "",
                     "imageUrl" : "",
                     "text" : "Added moving platforms to map to allow for better player mobility. Implemented wandering bird that randomly attacks players during turn transitions. Revamping map generation, to generate the map in small chunks to allow for randomness while having the map make sense."
-                }
-            },
-            "postEleven" :
-            {
-                "date": "12/2",
-                "postName" : "Final Adjustments",
-                "Alex" : {
-                    "vimeoLink" : "",
-                    "imageUrl" : "",
-                    "text" : ""
-                },
-                "Fernando" : {
-                    "vimeoLink" : "",
-                    "imageUrl" : "",
-                    "text" : "Polishing player AI, including improved projectile aiming, and adding remaining weapons to decision making."
-                },
-                "Joseph" : {
-                    "vimeoLink" : "",
-                    "imageUrl" : "",
-                    "text" : ""
                 }
             }
         }
@@ -300,8 +280,34 @@ class PostList extends React.Component {
                         </div>
                         <br></br>
                         <div>
-                            <ReactPlayer className="Media" url="" />
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209475" />
                             </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209288" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209252" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209238" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209193" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209161" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209118" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378209075" />
+                            </div>
+                            <div>
+                                <ReactPlayer className="Media" url="https://vimeo.com/378208946" />
+                            </div>
+                        </div>
                     </ExpansionPanelDetails>
                 </MyExpansionPanel>
                 </div>
