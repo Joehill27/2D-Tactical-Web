@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4efc5016cad3ddbc2a4419ec76a10c23",
+    "revision": "c82d77d9e9aa7ac546188598191961e9",
     "url": "/2D-Tactical-Web/index.html"
   },
   {
-    "revision": "7bc61e4534a8cb66e4a3",
-    "url": "/2D-Tactical-Web/static/css/main.d6337403.chunk.css"
+    "revision": "2afec846f77183a6eb3f",
+    "url": "/2D-Tactical-Web/static/css/main.f2b1358f.chunk.css"
   },
   {
-    "revision": "d5e4e767391e9625f81c",
-    "url": "/2D-Tactical-Web/static/js/2.99ac3152.chunk.js"
+    "revision": "17a49c40097e1ecfdad0",
+    "url": "/2D-Tactical-Web/static/js/2.264e9805.chunk.js"
   },
   {
-    "revision": "7bc61e4534a8cb66e4a3",
-    "url": "/2D-Tactical-Web/static/js/main.41d1a585.chunk.js"
+    "revision": "2afec846f77183a6eb3f",
+    "url": "/2D-Tactical-Web/static/js/main.ce12f233.chunk.js"
   },
   {
     "revision": "98ffb96cbe31ec5b5bb4",

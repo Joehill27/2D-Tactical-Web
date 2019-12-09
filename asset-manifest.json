@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/2D-Tactical-Web/static/css/main.d6337403.chunk.css",
-    "main.js": "/2D-Tactical-Web/static/js/main.41d1a585.chunk.js",
-    "main.js.map": "/2D-Tactical-Web/static/js/main.41d1a585.chunk.js.map",
+    "main.css": "/2D-Tactical-Web/static/css/main.f2b1358f.chunk.css",
+    "main.js": "/2D-Tactical-Web/static/js/main.ce12f233.chunk.js",
+    "main.js.map": "/2D-Tactical-Web/static/js/main.ce12f233.chunk.js.map",
     "runtime-main.js": "/2D-Tactical-Web/static/js/runtime-main.19193b97.js",
     "runtime-main.js.map": "/2D-Tactical-Web/static/js/runtime-main.19193b97.js.map",
-    "static/js/2.99ac3152.chunk.js": "/2D-Tactical-Web/static/js/2.99ac3152.chunk.js",
-    "static/js/2.99ac3152.chunk.js.map": "/2D-Tactical-Web/static/js/2.99ac3152.chunk.js.map",
+    "static/js/2.264e9805.chunk.js": "/2D-Tactical-Web/static/js/2.264e9805.chunk.js",
+    "static/js/2.264e9805.chunk.js.map": "/2D-Tactical-Web/static/js/2.264e9805.chunk.js.map",
     "index.html": "/2D-Tactical-Web/index.html",
-    "precache-manifest.8708c2fad9b184cacdfe055638b6fe08.js": "/2D-Tactical-Web/precache-manifest.8708c2fad9b184cacdfe055638b6fe08.js",
+    "precache-manifest.ac18fcd15d421b0937af135e06029653.js": "/2D-Tactical-Web/precache-manifest.ac18fcd15d421b0937af135e06029653.js",
     "service-worker.js": "/2D-Tactical-Web/service-worker.js",
-    "static/css/main.d6337403.chunk.css.map": "/2D-Tactical-Web/static/css/main.d6337403.chunk.css.map",
+    "static/css/main.f2b1358f.chunk.css.map": "/2D-Tactical-Web/static/css/main.f2b1358f.chunk.css.map",
     "static/media/Icon.svg": "/2D-Tactical-Web/static/media/Icon.1cfc1bf1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.19193b97.js",
-    "static/js/2.99ac3152.chunk.js",
-    "static/css/main.d6337403.chunk.css",
-    "static/js/main.41d1a585.chunk.js"
+    "static/js/2.264e9805.chunk.js",
+    "static/css/main.f2b1358f.chunk.css",
+    "static/js/main.ce12f233.chunk.js"
   ]
 }
